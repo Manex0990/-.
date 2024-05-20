@@ -97,7 +97,6 @@ class MyMath:
         else:
             return f'Неверно. Правильный ответ {self.answer_square_x()}.'
 
-
     def generate_line_x(self):
         """
         Вернет линейное уравнение в строковом формате

@@ -6,10 +6,12 @@ class MyMath:
         """
         Вернет кв уравнение в строковом формате
         """
-        self.a_sq = randint(1, 5)
+        self.a_sq = randint(-3, 5)
         self.b_sq = randint(-11, 11)
         self.c_sq = randint(-11, 11)
-        if self.b_sq == 0:
+        if self.a_sq == 0:
+            self.a_sq = 1
+        elif self.b_sq == 0:
             self.b_sq = 1
         elif self.c_sq == 0:
             self.c_sq = 1
